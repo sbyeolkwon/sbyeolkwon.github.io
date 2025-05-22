@@ -24,17 +24,22 @@ p {
     margin-left: 1rem;
     margin-bottom: 2rem;
     color: rgb(0, 0, 0);
+    font-family: "adobe-kis", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 figcaption {
     color: rgb(85, 85, 85);
-    font-style: italic;
     margin: 0.25rem 0rem 1rem 1rem;
+    font-family: "adobe-kis", sans-serif;
+    font-weight: 400;
+    font-style: italic;
 }
 
 /* aside */
 aside {
-    background-color: rgb(203, 207, 255);
+    background-color: rgb(244, 232, 210);
     padding: 0.5rem 0.5rem 1.75rem 0.5rem;
 }
 
@@ -50,17 +55,19 @@ aside p {
 
 /* header */
 h1 {
-    max-width: 8em;
+    max-width: 20em;
     margin-left: 0.5rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 
 /* navigation */
 nav a {
-    font-family: sans-serif;
-    font-weight: bold;
-    color: rgb(85, 119, 153);
+    color: rgb(56, 12, 13);
+    font-family: "naresuan", serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 1.75rem;
 }
 
 nav li {
@@ -76,7 +83,7 @@ nav {
 
 /* footer */
 footer {
-    background-color: rgb(85, 119, 153);
+    background-color: rgb(56, 12, 13);
     padding: 0.5em;
     margin-top: 0em;
     box-sizing: border-box;
@@ -89,10 +96,11 @@ footer p {
 
 /* headings */
 h2 {
-    font-family: serif;
-    font-weight: bold;
+    font-family: "naresuan", serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 3em;
-    color: rgb(85, 119, 153);
+    color: rgb(196, 39, 40);
     margin: 0.5rem 0rem 0rem 1rem;
 }
 
@@ -106,9 +114,10 @@ h2 {
 
 .tertiarystory h2 {
     font-size: 1.25em;
-    border-top: solid 1px rgb(85, 119, 153);
+    border-top: solid 1px rgb(196, 39, 40);
     padding-top: 0.3rem;
 }
+
 
 @media screen and (min-width: 40em) {
     nav li {
